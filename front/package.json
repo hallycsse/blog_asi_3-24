@@ -1,0 +1,30 @@
+{
+  "name": "blog_asi_3-24",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "deepmerge": "^4.3.1",
+    "formik": "^2.4.5",
+    "next": "14.0.4",
+    "prettier": "^3.1.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "yup": "^1.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
