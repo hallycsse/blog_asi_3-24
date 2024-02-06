@@ -1,7 +1,6 @@
 import Page from "@/components/Page"
 import api from "@/services/api"
 import { UserIcon } from "@heroicons/react/24/solid"
-import { Form, Formik } from "formik"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 

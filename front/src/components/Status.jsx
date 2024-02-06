@@ -1,5 +1,4 @@
 import { useAppContext } from "@/components/AppContext"
-// import AvatarComponent from "@/components/AvatarComponent"
 import { ArrowLeftOnRectangleIcon, UserIcon } from "@heroicons/react/24/solid"
 import { UserIcon as OutlinedUserIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
@@ -32,20 +31,20 @@ const Status = ({ className }) => {
     <div className={`flex ${className} mr-4`}>
       <div className="flex my-auto">
         {user ? (
-          <>
+          <div className="flex grow">
             <button onClick={handleClick}>
               <ArrowLeftOnRectangleIcon className="text-white w-6 h-6 " />
             </button>
-            <button className=" text-white">
-              <Link href={`/users/${user.id}`} className="break-normal">
+            <button className=" text-white w-24">
+              <Link href={`/users/${user.id}`} className="">
                 {user.displayName}
               </Link>
             </button>
-          </>
+          </div>
         ) : (
           <button className="text-3xl">
             {user ? (
-              <Link href="#">{user.displayName}</Link>
+              <Link href={`/users/${user.id}`}>{user.displayName}</Link>
             ) : (
               <Link href="/sign-in">
                 {router.pathname === "/sign-in" ||

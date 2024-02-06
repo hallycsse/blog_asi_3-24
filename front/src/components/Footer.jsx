@@ -1,7 +1,6 @@
 import { useAppContext } from "@/components/AppContext"
 import {
   ChatBubbleBottomCenterIcon,
-  HeartIcon,
   HomeIcon,
   MagnifyingGlassIcon,
   UserIcon,
@@ -10,7 +9,6 @@ import {
 import {
   UserPlusIcon as OutlinedUserPlusIcon,
   ChatBubbleBottomCenterIcon as OutlinedChatBubbleBottomCenterIcon,
-  HeartIcon as OutlinedHeartIcon,
   HomeIcon as OutlinedHomeIcon,
   MagnifyingGlassIcon as OutlinedMagnifyingGlassIcon,
 } from "@heroicons/react/24/outline"

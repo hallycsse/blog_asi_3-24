@@ -1,9 +1,10 @@
 import { useRouter } from "next/router"
-import Button from "./Button"
+import Button from "@/components/Button"
 import Link from "next/link"
 
 const nav = [
-  { name: "Home", path: "/" },
+  { name: "Home", path: "/posts" },
+  { name: "Create Post", path: "/posts/create-post" },
   { name: "Research", path: "/research" },
 ]
 

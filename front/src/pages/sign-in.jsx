@@ -107,7 +107,8 @@ const SignIn = () => {
               </Link>
             </span>
             <Button
-              className="mx-auto text-[#51afa6] rounded-lg border-2 border-[#51afa6] px-1.5 py-1 disabled:border-neutral-400 disabled:text-neutral-400"
+              className="mx-auto"
+              variant="secondary"
               type="submit"
               disabled={isSubmitting || !isValid}
             >
