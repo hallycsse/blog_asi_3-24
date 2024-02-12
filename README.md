@@ -1,0 +1,9 @@
+make ``.env`` file in backend like:
+
+```
+DB_USER=
+DB_DATABASE=
+SERVER_PORT=
+SECURITY_PASSWORD_PEPPER=
+SECURITY_JWT_SECRET=
+```
